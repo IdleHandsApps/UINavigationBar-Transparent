@@ -13,14 +13,14 @@
 		4C3BC5051AD39BE9007B7227 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C3BC4FD1AD39BE9007B7227 /* Info.plist */; };
 		4C3BC5061AD39BE9007B7227 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3BC4FE1AD39BE9007B7227 /* main.m */; };
 		4C3BC5101AD39D0A007B7227 /* UIViewController+TransparentNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3BC50F1AD39D0A007B7227 /* UIViewController+TransparentNavBar.m */; };
-		4C56ED531AE9C20900884BD0 /* UIViewController-TransparentNavBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4C56ED521AE9C20900884BD0 /* UIViewController-TransparentNavBar.podspec */; };
 		4C56ED561AE9C47A00884BD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C56ED551AE9C47A00884BD0 /* ViewController.m */; };
+		4C56ED581AE9CC6900884BD0 /* UIViewController-TransparentNavBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4C56ED571AE9CC6900884BD0 /* UIViewController-TransparentNavBar.podspec */; };
 		4C99DE561AD4D9AD00D02484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C99DE541AD4D9AD00D02484 /* Main.storyboard */; };
 		4CD5C2DC1AE5F13E00BB146E /* MBFingerTipWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5C2DB1AE5F13E00BB146E /* MBFingerTipWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C3BC4CB1AD39AC9007B7227 /* IHParallaxNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IHParallaxNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3BC4CB1AD39AC9007B7227 /* IHParallaxNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = IHParallaxNavigationController.app; path = "UIViewController-TransparentNavBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3BC4F61AD39BE9007B7227 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C3BC4F71AD39BE9007B7227 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4C3BC4F91AD39BE9007B7227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -29,9 +29,9 @@
 		4C3BC4FE1AD39BE9007B7227 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C3BC50E1AD39D0A007B7227 /* UIViewController+TransparentNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TransparentNavBar.h"; path = "Classes/UIViewController+TransparentNavBar.h"; sourceTree = SOURCE_ROOT; };
 		4C3BC50F1AD39D0A007B7227 /* UIViewController+TransparentNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TransparentNavBar.m"; path = "Classes/UIViewController+TransparentNavBar.m"; sourceTree = SOURCE_ROOT; };
-		4C56ED521AE9C20900884BD0 /* UIViewController-TransparentNavBar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "UIViewController-TransparentNavBar.podspec"; sourceTree = "<group>"; };
 		4C56ED541AE9C47A00884BD0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4C56ED551AE9C47A00884BD0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C56ED571AE9CC6900884BD0 /* UIViewController-TransparentNavBar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "UIViewController-TransparentNavBar.podspec"; sourceTree = SOURCE_ROOT; };
 		4C7E32371AE4A64D00D6F089 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		4C99DE551AD4D9AD00D02484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CD5C2DA1AE5F13E00BB146E /* MBFingerTipWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFingerTipWindow.h; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 				4C3BC4F81AD39BE9007B7227 /* LaunchScreen.xib */,
 				4C99DE541AD4D9AD00D02484 /* Main.storyboard */,
 				4C3BC4FC1AD39BE9007B7227 /* Images.xcassets */,
-				4C56ED521AE9C20900884BD0 /* UIViewController-TransparentNavBar.podspec */,
+				4C56ED571AE9CC6900884BD0 /* UIViewController-TransparentNavBar.podspec */,
 				4C7E32371AE4A64D00D6F089 /* README.md */,
 				4C3BC4FD1AD39BE9007B7227 /* Info.plist */,
 				4C3BC4FE1AD39BE9007B7227 /* main.m */,
@@ -155,10 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C3BC5021AD39BE9007B7227 /* LaunchScreen.xib in Resources */,
-				4C56ED531AE9C20900884BD0 /* UIViewController-TransparentNavBar.podspec in Resources */,
 				4C99DE561AD4D9AD00D02484 /* Main.storyboard in Resources */,
 				4C3BC5041AD39BE9007B7227 /* Images.xcassets in Resources */,
 				4C3BC5051AD39BE9007B7227 /* Info.plist in Resources */,
+				4C56ED581AE9CC6900884BD0 /* UIViewController-TransparentNavBar.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
