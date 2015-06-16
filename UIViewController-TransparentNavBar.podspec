@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UIViewController-TransparentNavBar'
-  s.version          = '1.0'
+  s.version          = '1.3'
   s.summary          = 'UIViewController-TransparentNavBar is a UIViewController category that can make the navigation bar transparent'
   s.homepage         = 'https://github.com/IdleHandsApps/UIViewController-TransparentNavBar/'
   s.description      = <<-DESC
