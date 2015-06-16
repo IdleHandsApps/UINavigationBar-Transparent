@@ -11,6 +11,10 @@
 @implementation UIViewController (TransparentNavBar)
 
 - (void)setNavBarColor:(UIColor *)navBarColor {
+    [self setNavBarColor:navBarColor doHideShadow:NO];
+}
+
+- (void)setNavBarColor:(UIColor *)navBarColor doHideShadow:(BOOL)doHideShadow {
     static UIImage *shadowImage;
     
     if (navBarColor && CGColorGetAlpha(navBarColor.CGColor) == 0) {
@@ -28,6 +32,10 @@
         // restore original nav bar color
         [self.navigationController.navigationBar setBackgroundImage:[self imageWithColor:[UIColor colorWithRed:220/255.0 green:220/255.0 blue:220/255.0 alpha:1]] forBarMetrics:UIBarMetricsDefault];
         self.navigationController.navigationBar.shadowImage = shadowImage;
+    }
+    if (doHideShadow) {
+        shadowImage = self.navigationController.navigationBar.shadowImage;
+        self.navigationController.navigationBar.shadowImage = [UIImage new];
     }
 }
 

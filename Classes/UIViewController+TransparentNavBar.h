@@ -11,5 +11,6 @@
 @interface UIViewController (TransparentNavBar)
 
 - (void)setNavBarColor:(UIColor *)navBarColor;
+- (void)setNavBarColor:(UIColor *)navBarColor doHideShadow:(BOOL)doHideShadow;
 
 @end
