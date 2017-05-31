@@ -19,7 +19,7 @@ class SecondViewController: UIViewController {
         super.viewWillAppear(animated)
         
         self.navigationItem.title = "Standard Nav Bar"
-        self.navigationController?.navigationBar.hideShadow(doHide: true)
+        self.navigationController?.navigationBar.hideShadow(true)
     }
 
     override func didReceiveMemoryWarning() {

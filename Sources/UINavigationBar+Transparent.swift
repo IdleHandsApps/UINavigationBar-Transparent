@@ -15,21 +15,21 @@ public extension UINavigationBar {
         if barColor != nil && barColor!.cgColor.alpha == 0 {
             // if transparent color then use transparent nav bar
             self.setBackgroundImage(UIImage(), for: .default)
-            self.hideShadow(doHide: true)
+            self.hideShadow(true)
         }
         else if barColor != nil {
             // use custom color
             self.setBackgroundImage(self.image(with: barColor!), for: .default)
-            self.hideShadow(doHide: false)
+            self.hideShadow(false)
         }
         else {
             // restore original nav bar color
             self.setBackgroundImage(nil, for: .default)
-            self.hideShadow(doHide: false)
+            self.hideShadow(false)
         }
     }
     
-    func hideShadow(doHide: Bool) {
+    func hideShadow(_ doHide: Bool) {
         self.shadowImage = doHide ? UIImage() : nil
     }
     
