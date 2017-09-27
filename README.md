@@ -1,35 +1,31 @@
-A UIViewController category that can make the navigation bar transparent
+UINavigationBar-Transparent [![Language: Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg)](https://swift.org)
+------------------------------
+
+A UINavigationBar category that can easily make the navigation bar transparent
 
 ## Description
 
-UIViewController+TransparentNavBar is a category that allows you to set your UINavigationBar background to transparent or to any UIColor you choose.
+UINavigationBar-TransparentNavBar is a category that allows you to set your UINavigationBar background to transparent or to any UIColor you choose.
 
-Because its a UIViewController category, the UINavigationBar background can be changed each time a UIViewController is pushed or popped into the navigation hierarchy.
+Because its a UINavigationBar category, the UINavigationBar background can be changed each time a UIViewController is pushed or popped into the navigation hierarchy.
 
 ## How to install
 
 Add this to your CocoaPods Podfile.
 ```
-pod 'UIViewController-TransparentNavBar'
+pod 'UINavigationBar-Transparent'
 ```
 
 ## How to use
 
 In your UIViewController
-```objective-c
-#import "UIViewController+TransparentNavBar.h"
-```
-```objective-c
-- (void)viewWillAppear:(BOOL)animated {
-    // to set transparent
-    [self setNavBarColor:[UIColor clearColor]];
-    
-    // to set a custom color
-    [self setNavBarColor:[UIColor yellowColor]];
-
-    // to set back to default grey color
-    [self setNavBarColor:nil];
-}
+```swift
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.navigationItem.title = "Clear Nav Bar"
+        self.navigationController?.navigationBar.setBarColor(UIColor.clear)
+    }
 ```
 
 ## Treat yourself to these other libraries of mine :)
