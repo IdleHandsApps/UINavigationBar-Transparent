@@ -32,12 +32,7 @@ In your UIViewController
 }
 ```
 
-## Buy now and get thes free gifts :)
-
-An elegant solution for keeping views visible when the keyboard is shown https://github.com/IdleHandsApps/IHKeyboardAvoiding
-
-
-## Treat yourself to these other libraries of mine
+## Treat yourself to these other libraries of mine :)
 
 An elegant solution for keeping views visible when the keyboard is being shown https://github.com/IdleHandsApps/IHKeyboardAvoiding
 
