@@ -32,14 +32,17 @@ In your UIViewController
 }
 ```
 
+## Buy now and get thes free gifts :)
+
+An elegant solution for keeping views visible when the keyboard is shown https://github.com/IdleHandsApps/IHKeyboardAvoiding
+
+
 ## Treat yourself to these other libraries of mine
 
-An elegant solution for keeping any UIView visible when the keyboard is being shown https://github.com/IdleHandsApps/IHKeyboardAvoiding
+An elegant solution for keeping views visible when the keyboard is being shown https://github.com/IdleHandsApps/IHKeyboardAvoiding
 
-Tap to dismiss the keyboard with IHKeyboardDismissing 
-https://github.com/IdleHandsApps/IHKeyboardDismissing
-
-A drop in nav controller with cool parallax transitions https://github.com/IdleHandsApps/IHParallaxNavigationController
+Button styles that are centralied and reusable, and hooked up to InterfaceBuilder
+https://github.com/IdleHandsApps/DesignableButton
 
 ## Author
 
