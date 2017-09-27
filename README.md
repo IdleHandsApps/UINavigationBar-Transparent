@@ -20,12 +20,12 @@ pod 'UINavigationBar-Transparent'
 
 In your UIViewController
 ```swift
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
         
-        self.navigationItem.title = "Clear Nav Bar"
-        self.navigationController?.navigationBar.setBarColor(UIColor.clear)
-    }
+    self.navigationItem.title = "Clear Nav Bar"
+    self.navigationController?.navigationBar.setBarColor(UIColor.clear)
+}
 ```
 
 ## Treat yourself to these other libraries of mine :)
