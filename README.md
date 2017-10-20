@@ -35,6 +35,9 @@ An elegant solution for keeping views visible when the keyboard is being shown h
 Button styles that are centralied and reusable, and hooked up to InterfaceBuilder
 https://github.com/IdleHandsApps/DesignableButton
 
+A fully automatic status bar overlay for No Internet Connection messages 
+https://github.com/IdleHandsApps/StatusBarOverlay
+
 ## Author
 
 * Fraser Scott-Morrison (fraserscottmorrison@me.com)
