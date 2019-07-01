@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UINavigationBar-Transparent'
-  s.version          = '1.3'
+  s.version          = '1.4'
   s.summary          = 'UINavigationBar-Transparent is a UINavigationBar category that can make the navigation bar transparent'
   s.homepage         = 'https://github.com/IdleHandsApps/UINavigationBar-Transparent/'
   s.description      = <<-DESC
@@ -19,6 +19,7 @@ self.navigationController?.navigationBar.setBarColor(nil) will set the nav bar b
   s.source           = { :git => 'https://github.com/IdleHandsApps/UINavigationBar-Transparent.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = "8.0"
+  s.swift_version = '5.0'
   s.source_files = "Sources/*.swift"
 
   s.framework       = "UIKit"
